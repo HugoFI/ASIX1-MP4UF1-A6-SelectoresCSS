@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css" type="text/css">
     <title>CSS Selectors</title>
     <link rel="icon" href="./resources/file-code-solid.svg">
@@ -60,8 +60,50 @@
             <h3>All CSS Simple Selectors</h3>
             <img src="./resources/selectors.png" alt="">
         </div>
-        <div>
-            
+        <div id="bordertable">
+        <div id="tablediv">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Selector</th>
+                    <th>Example</th>
+                    <th>Example description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="greyrow">
+                    <td><em><u>#id</u></em></td>
+                    <td>#firstname</td>
+                    <td>Selects the element with id="firstname"</td>
+                  </tr>
+                  <tr>
+                    <td><em><u>.class</u></em></td>
+                    <td>.intro</td>
+                    <td>Selects all elements with class="intro"</td>
+                  </tr>
+                  <tr class="greyrow">
+                    <td><em><u>element.class</u></em></td>
+                    <td>p.intro</td>
+                    <td>Selects only &lt;p&gt; elements with class="intro"</td>
+                  </tr>
+                  <tr>
+                    <td><u>*</u></td>
+                    <td>*</td>
+                    <td>Selects all elements</td>
+                  </tr>
+                  <tr class="greyrow">
+                    <td><u>element</u></td>
+                    <td>p</td>
+                    <td>Selects all &lt;p&gt; elements</td>
+                  </tr>
+                  <tr>
+                    <td><em><u>element,element,..</u></em></td>
+                    <td>div, p</td>
+                    <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
         </div>
     </div>
 
